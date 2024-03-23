@@ -7,6 +7,7 @@ Este site conta com as seguintes páginas:
 - Horário de funcionamento
 - Sobre nós
 - Contato
+
 Foi utilizado tags simples porém muito interessantes do HTML que foram apresentadas ao longo do curso (Iframe, form, SVG, strong, div, span, img, ul, etc).
 ## 📚 Documentacao
 - HTML
