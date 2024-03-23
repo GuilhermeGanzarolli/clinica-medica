@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+}
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.local-logo{
+    position: relative;
+    top: 30px;
+    left: 10px;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(196, 238, 255);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(196, 238, 255);
+    min-height: 150px;
+    color: rgb(25, 146, 252);
+    font-size: larger;
+}
+.content {
+    
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(196, 238, 255);
+    min-height: 150px;
+}
+
+table{
+    margin-top: 75px;
+    border: 1px solid gainsboro;
+    -webkit-box-shadow: 18px 18px 17px -2px rgba(153,153,153,1);
+    -moz-box-shadow: 18px 18px 17px -2px rgba(153,153,153,1);
+    box-shadow: 18px 18px 17px -2px rgba(153,153,153,1);
+}
+
+table thead th{
+    background-color: black;
+    color: white;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: rgb(230, 230, 230);
+}
+
+table tbody tr:hover td{
+    background-color: rgb(192, 192, 192);
+}
